@@ -1,0 +1,96 @@
+#sumbitBtn{
+    background-color: #4CAF50; /* Verde */
+    border: none; /* Sin borde */
+    color: white; /* Texto blanco */
+    padding: 15px 32px; /* Relleno */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Inline-block */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cursor de mano */
+    border-radius: 12px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición para cambios de color */
+}
+
+#sumbitBtn:hover {
+    background-color: #45a049; /* Verde oscuro */
+}
+
+/* Estilo para el foco */
+#sumbitBtn:focus {
+    outline: none; /* Quitar outline por defecto */
+    box-shadow: 0 0 10px #719ECE; /* Sombra de foco */
+}
+
+
+
+/* Estilos básicos para el input */
+.styled-input {
+    width: 100%; /* Ancho del 100% del contenedor padre */
+    padding: 10px 15px; /* Relleno interno */
+    margin: 10px 0; /* Margen superior e inferior */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transiciones para border y shadow */
+}
+
+/* Estilo para el placeholder */
+.styled-input::placeholder {
+    color: #aaa; /* Color del placeholder */
+}
+
+/* Estilo para el foco */
+.styled-input:focus {
+    border-color: #4CAF50; /* Cambia el color del borde al verde */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Sombra verde */
+    outline: none; /* Quita el borde predeterminado del foco */
+}
+
+/* Estilo para hover */
+.styled-input:hover {
+    border-color: #888; /* Cambia el color del borde al pasar el cursor */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.headbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-left: 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
